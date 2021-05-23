@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main(){
 
     puts("Welcome RTL world @~@!");
 
-    char buf[125];
+    char buf[256];
     printf("Input : ");
 
-    fgets(buf, 0x256, stdin);
+    gets(buf);
 
     return 0;
 }
