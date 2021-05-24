@@ -3,8 +3,9 @@
 
 int main(){
 
-    puts("@.@ something different..? Good luck @.@~");
-    
+    write(1,"@.@ something different..? Good luck @.@~", 42);
+
+
     char buf[125];
 
     read(0, buf, 0x100);
